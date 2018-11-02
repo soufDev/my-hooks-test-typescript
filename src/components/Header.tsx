@@ -11,7 +11,6 @@ export default function Header() {
     setCurrent(e.key);
   }
   return (
-    <Router>
       <Menu
         selectedKeys={[current]}
         theme={"light"}
@@ -19,7 +18,7 @@ export default function Header() {
         onClick={onChange}
       >
         <Item key="home">
-          <Link to="/home">
+          <Link to="/">
             <Icon type="home" />
             Home
           </Link>
@@ -31,6 +30,5 @@ export default function Header() {
           </Link>
         </Item>
       </Menu>
-    </Router>
   );
 }

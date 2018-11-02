@@ -14,7 +14,7 @@ function App() {
           <Menu />
           <div className="App">
             <Suspense fallback={<Spin />}>
-              <Route exact path="/home" component={Home} />
+              <Route path="/" exact component={Home} />
               <Route path="/user" component={User} />
             </Suspense>
           </div>

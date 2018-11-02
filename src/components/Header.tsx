@@ -11,24 +11,24 @@ export default function Header() {
     setCurrent(e.key);
   }
   return (
-      <Menu
-        selectedKeys={[current]}
-        theme={"light"}
-        mode={"horizontal"}
-        onClick={onChange}
-      >
-        <Item key="home">
-          <Link to="/">
-            <Icon type="home" />
-            Home
-          </Link>
-        </Item>
-        <Item key="user">
-          <Link to="/user">
-            <Icon type="user" />
-            User
-          </Link>
-        </Item>
-      </Menu>
+    <Menu
+      selectedKeys={[current]}
+      theme={"light"}
+      mode={"horizontal"}
+      onClick={onChange}
+    >
+      <Item key="home">
+        <Link to="/">
+          <Icon type="home" />
+          Home
+        </Link>
+      </Item>
+      <Item key="user">
+        <Link to="/user">
+          <Icon type="user" />
+          User
+        </Link>
+      </Item>
+    </Menu>
   );
 }

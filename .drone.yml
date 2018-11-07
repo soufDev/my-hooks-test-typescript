@@ -5,7 +5,7 @@ pipeline:
       - rm -rf node_modules/
       - yarn -f
       - yarn build
-    test:
-      image: node:9-alpine
-      commands:
-        - yarn test
+  test:
+    image: node:9-alpine
+    commands:
+      - yarn test

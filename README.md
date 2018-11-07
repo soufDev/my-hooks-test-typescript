@@ -1,6 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-http://ait-akkache-soufiane:8000/api/badges/soufDev/my-hooks-test-typescript/status.svg?branch=master
+<img src="http://ait-akkache-soufiane:8000/api/badges/soufDev/my-hooks-test-typescript/status.svg?branch=master">
 
 ## Available Scripts
 

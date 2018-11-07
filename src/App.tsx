@@ -8,7 +8,7 @@ const Home = lazy(() => import("./components/Home"));
 const User = lazy(() => import("./components/User"));
 function App() {
   return (
-    <>
+    <div>
       <Router>
         <>
           <Menu />
@@ -20,7 +20,7 @@ function App() {
           </div>
         </>
       </Router>
-    </>
+    </div>
   );
 }
 

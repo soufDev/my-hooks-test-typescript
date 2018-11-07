@@ -11,6 +11,6 @@ describe('testing the app component', () => {
   it('renders without crashing', () => {
     const appComponent = shallow(<App />);
     console.log('first ', appComponent.children())
-    expect(appComponent.children().contains(<Route />)).toBe(false);
+    expect(appComponent.children().contains(<Route />)).toBe(true);
   });
 })
